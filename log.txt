@@ -1,0 +1,78 @@
+/home/behrad/anaconda3/bin/python /home/behrad/Toghi/Py_WS/CAP5610-HW1/MNIST/kNN.py
+Running...  
+Reading Data  
+Reading Data Finish
+Calculating dist matrix  
+Calculating dist matrix finish 
+Run for k = 1 on full data set
+
+
+Run for k = 1 
+For k = 1 , Accuracy is: 96.91 % 
+Running kFolds cross validation 
+for k =  1 , slice is: 0 to 5999
+Run for k = 1 
+For k = 1 , Accuracy is: 96.53292215369228 
+for k =  2 , slice is: 6000 to 11999
+Run for k = 2 
+For k = 2 , Accuracy is: 96.84947491248542 
+for k =  3 , slice is: 12000 to 17999
+Run for k = 3 
+For k = 3 , Accuracy is: 97.16619436572762 
+for k =  4 , slice is: 18000 to 23999
+Run for k = 4 
+For k = 4 , Accuracy is: 96.64960826804467 
+for k =  5 , slice is: 24000 to 29999
+Run for k = 5 
+For k = 5 , Accuracy is: 97.06617769628271 
+for k =  6 , slice is: 30000 to 35999
+Run for k = 6 
+For k = 6 , Accuracy is: 96.28288048008001 
+for k =  7 , slice is: 36000 to 41999
+Run for k = 7 
+For k = 7 , Accuracy is: 97.11618603100517 
+for k =  8 , slice is: 42000 to 47999
+Run for k = 8 
+For k = 8 , Accuracy is: 96.84947491248542 
+for k =  9 , slice is: 48000 to 53999
+Run for k = 9 
+For k = 9 , Accuracy is: 96.39939989998334 
+for k =  10 , slice is: 54000 to 59999
+Run for k = 10 
+For k = 10 , Accuracy is: 96.59959993332222
+Accuracy results are: [96.53292215369228, 96.84947491248542, 97.16619436572762, 96.64960826804467, 97.06617769628271, 96.28288048008001, 97.11618603100517, 96.84947491248542, 96.39939989998334, 96.59959993332222]
+Optimum k value is k = 3 , with accuracy = 97.16619436572762 %
+
+
+Run for k = 3 
+For k = 3 , Accuracy is: 97.17 % 
+[[ 974    1    1    0    0    1    2    1    0    0]
+ [   0 1133    2    0    0    0    0    0    0    0]
+ [   9    7  997    2    0    0    1   14    2    0]
+ [   0    1    4  975    1   13    1    7    4    4]
+ [   0    5    0    0  948    0    5    4    1   19]
+ [   4    1    0   12    2  860    5    1    3    4]
+ [   4    3    0    0    4    3  944    0    0    0]
+ [   0   18    4    0    2    0    0  994    0   10]
+ [   7    0    3   13    5   11    3    4  923    5]
+ [   3    4    2    7    9    4    1    8    2  969]]
+
+
+Running sliding window kNN for k = 3 
+Run for k = 3 2018-09-17 18:55:30.906104
+For k = 3 , Accuracy is: 97.73 % 
+[[ 976    0    1    0    0    1    1    1    0    0]
+ [   0 1131    2    0    1    0    1    0    0    0]
+ [   5    4 1005    2    0    0    0   14    1    1]
+ [   0    1    2  992    0    6    0    3    4    2]
+ [   0    6    0    0  953    0    3    2    0   18]
+ [   2    2    0    5    1  871    6    1    1    3]
+ [   4    4    0    0    2    1  947    0    0    0]
+ [   0   19    3    0    3    0    0  995    0    8]
+ [   4    0    2   12    5   10    3    3  928    7]
+ [   3    5    1    4    7    5    0    9    0  975]]
+
+
+GLib-GIO-Message: Using the 'memory' GSettings backend.  Your settings will not be saved or shared with other applications.
+
+Process finished with exit code 0
