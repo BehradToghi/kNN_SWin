@@ -8,6 +8,7 @@ Version 1.0, 9/18/2018
 The source code is available for public use as it is without
 any gurantee or claim on being valid or operational. Please cite the following paper:
 
+https://arxiv.org/abs/1809.06846
 Behrad Toghi, Divas Grover, "K-nearest Neighbor Classifier Using Sliding Window Modified Distance Metric", Sept 2018
 '''
 ##################################################################
